@@ -1,0 +1,127 @@
+body{
+	color:black;
+		background-color: #DEFEFE;
+}
+
+
+#wrapper{
+	width:750px;
+	margin:0 auto;
+	background-color:#DEFEFE;
+}
+
+#header{
+	background-color:white;
+	height:60px;
+  padding-top:5px;
+	text-align:center;
+  padding-left:60px;
+	font-family: serif;
+	font-size: 18px;
+}
+
+#quoteheader{
+	background-color:white;
+	height:50px;
+	text-align:center;
+  padding-bottom
+  padding-left:60px;
+	font-family: serif;
+	font-size: 10px;
+  border: black 0.5px solid;
+  margin: 10px 0px 0px 1px;
+}
+
+#leftbody{
+	float:left;
+	width:190px;
+	height:500px;
+	background-color:white;
+	border: black 1px solid;
+  padding-top:20px;
+  margin: 20px 0px 0px 1px;
+	text-align:center;
+	font-weight: bold;
+	font-family: sans-serif;
+  color:Black;
+  text-decoration: underline;
+	font-size: 15px;
+}
+
+
+#content{
+	width:540px;
+	height: 500px;
+  margin: 20px 0px 0px 210px;
+  padding-top: 20px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: sans-serif;
+	color:Black;
+	text-decoration:underline;
+	border: black 1px solid;
+}
+
+#content2{
+	width:250px;
+	height:490px;
+  float:right;
+  left:auto;
+	background-color:white;
+	position:relative;
+	padding-top:20px;
+  margin: 20px 0px 0px 0px;
+  border: black 1px solid;
+  text-align: center;
+}
+
+#content3{
+  float:right;
+  	width:250px;
+  	height:490px;
+    right:40px;
+  	background-color:white;
+  	position:relative;
+    padding-top:20px;
+    margin: 20px 0px 0px 1px;
+    border: black 1px solid;
+    text-align: center;
+  }
+
+  #content4{
+    float:right;
+    	width:250px;
+    	height:490px;
+      right:10px;
+    	background-color:white;
+    	position:relative;
+      padding:5px;
+      padding-top:20px;
+      margin: 20px 0px 0px 1px;
+      border: black 1px solid;
+      text-align: center;
+    }
+
+    #content5{
+    	width:250px;
+    	height:490px;
+      float:left;
+      left:10px;
+    	background-color:white;
+    	position:relative;
+    	padding:5px;
+      padding-top:20px;
+      text-align: center;
+      margin: 20px 0px 0px 1px;
+      border: black 1px solid;
+    }
+
+#bottom{
+	height:30px;
+	clear:both;
+	background-color:white;
+  margin:5px 0px 0px 0px;
+	border: black 1px solid;
+  font-size: 20px;
+}
