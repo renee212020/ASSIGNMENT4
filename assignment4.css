@@ -87,9 +87,17 @@ body{
   font-style: normal;
   padding-top: 12px;
 }
+.main{
+	text-align:left;
+  font-size: 15px;
+  font-family: serif;
+  font-weight: lighter;
+  font-style: normal;
+  padding: 12px;
+}
 
 #content2{
-	width:250px;
+	width:270px;
 	height:490px;
   float:right;
   left:auto;
@@ -106,9 +114,9 @@ font-family: monospace;
 
 #content3{
   float:right;
-  	width:250px;
+  	width:270px;
   	height:490px;
-    right:40px;
+    right:10px;
   	background-color:white;
   	position:relative;
     padding-top:20px;
@@ -124,17 +132,15 @@ font-family: monospace;
     width:130px;
     height:130px;
     margin:20px;
-    top:340px;
-    right:30px;
-   position:absolute;
+   position:relative;
   }
 
 
   #superhero{
     float:right;
-    top:70px;
-    right:40px;
-    position: relative;
+    top:190px;
+    right:15px;
+    position:relative;
   }
 
 
