@@ -7,7 +7,7 @@ function stopTime() {
   var stopseconds = stop.getSeconds();
   var difference = stopseconds - startseconds;
 
-alert("It has been" +difference+ "seconds it is time to watch a movie");
+alert("It has been" +difference+ "seconds it is time to watch a Movie/Show");
 }
 
 
