@@ -66,6 +66,16 @@ body{
 	font-size: 15px;
 }
 
+.tv{
+  width:120px;
+  height:100px;
+  margin:20px;
+ position:relative;
+ top: 120px;
+
+}
+
+
 
 #content{
 	width:540px;
@@ -98,6 +108,13 @@ body{
   font-style: normal;
   padding: 12px;
   color: black;
+}
+
+.list{
+  width:420px;
+  height:230px;
+  margin:20px;
+ position:relative;
 }
 
 #content2{
@@ -182,12 +199,27 @@ font-family: monospace;
       font-family: monospace;
     }
 
-
 #bottom{
 	height:30px;
 	clear:both;
 	background-color:white;
+  padding: 10px;
   margin:5px 0px 0px 0px;
 	border: black 1px solid;
   font-size: 20px;
+  font-weight: bold;
 }
+
+.contact{
+  font-size:15px;
+  font-style: italic;
+  position: relative;
+  left:50px;
+  font-weight: normal;
+}
+.contact2{
+  font-size:15px;
+  font-style: italic;
+  position: relative;
+  left:80px;
+  font-weight: normal;}
