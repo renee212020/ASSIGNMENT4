@@ -66,7 +66,7 @@ body{
 }
 
 .Comfort{
-	text-align:center;
+	text-align:left;
   font-size: 15px;
   font-family: serif;
   font-weight: lighter;
@@ -113,6 +113,7 @@ font-family: monospace;
     right:30px;
    position:absolute;
   }
+
 
   #superhero{
     float:right;
