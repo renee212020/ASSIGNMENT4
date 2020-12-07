@@ -15,14 +15,14 @@ body{
   height:50px;
   margin:20px;
   left:70px;
-  position:fixed;
+  position:absolute;
 }
 .snow2{
   width:50px;
   height:50px;
   margin:20px;
   right:80px;
-  position:fixed;
+  position:absolute;
 }
 #header{
 	background-color:white;
@@ -52,8 +52,8 @@ body{
 
 #leftbody{
 	float:left;
-	width:190px;
-	height:500px;
+	width:220px;
+	height:450px;
 	background-color:white;
 	border: black 1px solid;
   padding-top:20px;
@@ -64,6 +64,7 @@ body{
   color:black;
   text-decoration: underline;
 	font-size: 15px;
+  position:fixed;
 }
 
 .tv{
@@ -78,8 +79,28 @@ body{
 
 
 #content{
-	width:540px;
+	width:500px;
 	height: 500px;
+  margin: 20px 0px 0px 210px;
+  padding-top: 20px;
+	text-align: center;
+  background-color:white;
+  float: left;
+  left:20px;
+	font-size: 30px;
+	font-weight: bold;
+  font-style: italic;
+	font-family: sans-serif;
+	color:darkblue;
+	border: black 1px solid;
+  position: absolute;
+}
+
+
+#contentb{
+	width:500px;
+	height: 500px;
+  float:right;
   margin: 20px 0px 0px 210px;
   padding-top: 20px;
 	text-align: center;
@@ -90,7 +111,10 @@ body{
 	font-family: sans-serif;
 	color:darkblue;
 	border: black 1px solid;
+  right:5px;
+  position: relative;
 }
+
 
 .Comfort{
 	text-align:left;
@@ -120,10 +144,9 @@ body{
 #content2{
 	width:270px;
 	height:490px;
-  float:right;
-  left:auto;
+  float:left;
+  left:300px;
 	background-color:white;
-	position:relative;
 	padding-top:20px;
   margin: 20px 0px 0px 0px;
   border: black 1px solid;
@@ -131,15 +154,15 @@ body{
 font-weight: bolder;
 font-style: italic;
 font-family: monospace;
+position:relative;
 }
 
 #content3{
   float:right;
   	width:270px;
   	height:490px;
-    right:10px;
+    right:300px;
   	background-color:white;
-  	position:relative;
     padding-top:20px;
     margin: 20px 0px 0px 1px;
     border: black 1px solid;
@@ -147,6 +170,7 @@ font-family: monospace;
     font-weight: bolder;
     font-style: italic;
     font-family: monospace;
+    position:relative;
   }
 
   .wheel{
@@ -169,7 +193,7 @@ font-family: monospace;
     float:right;
     	width:250px;
     	height:490px;
-      right:10px;
+      right:300px;
     	background-color:white;
     	position:relative;
       padding:5px;
@@ -186,7 +210,7 @@ font-family: monospace;
     	width:250px;
     	height:490px;
       float:left;
-      left:10px;
+      left:300px;
     	background-color:white;
     	position:relative;
     	padding:5px;
@@ -208,6 +232,7 @@ font-family: monospace;
 	border: black 1px solid;
   font-size: 20px;
   font-weight: bold;
+  text-align: center;
 }
 
 .contact{
@@ -228,7 +253,7 @@ font-family: monospace;
     font-size:15px;
     font-style: italic;
     position: relative;
-    left:220px;
+    left:730px;
     font-weight: normal;
     bottom:35px;}
 
@@ -236,6 +261,7 @@ font-family: monospace;
       font-size:15px;
       font-style: italic;
       position: relative;
-      left:280px;
+      left:780px;
       bottom:35px;
-      font-weight: normal;}
+      font-weight: normal;
+    text-align: center;}
