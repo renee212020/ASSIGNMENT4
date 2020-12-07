@@ -10,6 +10,19 @@ function stopTime() {
 alert("It has been" +difference+ "seconds it is time to watch a movie");
 }
 
-var myPrompt =prompt("Please enter your name");
-console.log(myPrompt);
-document.getElementById("output").innerHTML = myPrompt;
+
+//This will output when a button is pressed
+function therest(){
+
+document.getElementById("output1").innerHTML="a description";
+document.getElementById("output2").innerHTML="output Two here";
+document.getElementById("output3").innerHTML="output Three here";
+document.getElementById("output4").innerHTML="output Three here";
+document.getElementById("output5").innerHTML="output Three here";
+document.getElementById("output6").innerHTML="output Three here";
+document.getElementById("output7").innerHTML="output Three here";
+document.getElementById("output8").innerHTML="output Three here";
+document.getElementById("output9").innerHTML="output Three here";
+document.getElementById("output10").innerHTML="output Three here";
+
+}

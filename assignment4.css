@@ -85,6 +85,7 @@ body{
   font-family: serif;
   font-weight: lighter;
   font-style: normal;
+  padding-top: 12px;
 }
 
 #content2{
@@ -131,7 +132,7 @@ font-family: monospace;
 
   #superhero{
     float:right;
-    top:100px;
+    top:70px;
     right:40px;
     position: relative;
   }
