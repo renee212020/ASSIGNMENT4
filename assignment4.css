@@ -21,14 +21,6 @@ body{
 	font-size: 18px;
 }
 
-.login{
-  float: right;
-  bottom:75px;
-  right: 90px;
-  position: relative;
-}
-
-
 #quoteheader{
 	background-color:white;
 	height:50px;
@@ -112,6 +104,23 @@ font-family: monospace;
     font-style: italic;
     font-family: monospace;
   }
+
+  .wheel{
+    width:130px;
+    height:130px;
+    margin:20px;
+    top:310px;
+    right:30px;
+   position:absolute;
+  }
+
+  #superhero{
+    float:right;
+    top:395px;
+    right:40px;
+    position: relative;
+  }
+
 
   #content4{
     float:right;
