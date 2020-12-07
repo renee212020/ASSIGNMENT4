@@ -10,6 +10,20 @@ body{
 	background-color:#CCFFFF;
 }
 
+.snow{
+  width:50px;
+  height:50px;
+  margin:20px;
+  left:70px;
+  position:fixed;
+}
+.snow2{
+  width:50px;
+  height:50px;
+  margin:20px;
+  right:80px;
+  position:fixed;
+}
 #header{
 	background-color:white;
 	height:60px;
@@ -109,7 +123,7 @@ font-family: monospace;
     width:130px;
     height:130px;
     margin:20px;
-    top:310px;
+    top:340px;
     right:30px;
    position:absolute;
   }
@@ -117,7 +131,7 @@ font-family: monospace;
 
   #superhero{
     float:right;
-    top:395px;
+    top:100px;
     right:40px;
     position: relative;
   }
