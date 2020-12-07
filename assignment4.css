@@ -1,24 +1,33 @@
 body{
 	color:black;
-		background-color: #DEFEFE;
+		background-color:#CCFFFF;
 }
 
 
 #wrapper{
 	width:750px;
 	margin:0 auto;
-	background-color:#DEFEFE;
+	background-color:#CCFFFF;
 }
 
 #header{
 	background-color:white;
 	height:60px;
-  padding-top:5px;
+  padding:8px;
 	text-align:center;
   padding-left:60px;
-	font-family: serif;
+	font-family:serif;
+  font-style: italic;
 	font-size: 18px;
 }
+
+.login{
+  float: right;
+  bottom:75px;
+  right: 90px;
+  position: relative;
+}
+
 
 #quoteheader{
 	background-color:white;
@@ -55,12 +64,21 @@ body{
   margin: 20px 0px 0px 210px;
   padding-top: 20px;
 	text-align: center;
+  background-color:white;
 	font-size: 30px;
 	font-weight: bold;
+  font-style: italic;
 	font-family: sans-serif;
 	color:Black;
-	text-decoration:underline;
 	border: black 1px solid;
+}
+
+.Comfort{
+	text-align:center;
+  font-size: 15px;
+  font-family: serif;
+  font-weight: lighter;
+  font-style: normal;
 }
 
 #content2{
@@ -74,6 +92,9 @@ body{
   margin: 20px 0px 0px 0px;
   border: black 1px solid;
   text-align: center;
+font-weight: bolder;
+font-style: italic;
+font-family: monospace;
 }
 
 #content3{
@@ -87,6 +108,9 @@ body{
     margin: 20px 0px 0px 1px;
     border: black 1px solid;
     text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: monospace;
   }
 
   #content4{
@@ -101,6 +125,9 @@ body{
       margin: 20px 0px 0px 1px;
       border: black 1px solid;
       text-align: center;
+      font-weight: bolder;
+      font-style: italic;
+      font-family: monospace;
     }
 
     #content5{
@@ -115,6 +142,9 @@ body{
       text-align: center;
       margin: 20px 0px 0px 1px;
       border: black 1px solid;
+      font-weight: bolder;
+      font-style: italic;
+      font-family: monospace;
     }
 
 
